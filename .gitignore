@@ -1,0 +1,29 @@
+# ---- Secrets: never commit ----
+*.jks
+*.keystore
+*.pfx
+*.p12
+*.pem
+*.key
+keystore.properties
+signing.properties
+
+# ---- Local machine ----
+local.properties
+*.log
+
+# ---- Android / Gradle ----
+.gradle/
+.kotlin/
+**/build/
+captures/
+.cxx/
+*.apk
+*.aab
+*.iml
+.idea/
+
+# ---- OS ----
+Thumbs.db
+Desktop.ini
+.DS_Store
